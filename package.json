@@ -1,0 +1,27 @@
+{
+  "name": "wemovies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "react": "^15.6.1",
+    "react-addons-pure-render-mixin": "^15.6.2",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksstefanovic/wemovies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleksstefanovic/wemovies/issues"
+  },
+  "homepage": "https://github.com/aleksstefanovic/wemovies#readme"
+}
