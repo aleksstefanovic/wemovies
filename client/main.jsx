@@ -9,7 +9,6 @@ import {
     renderRoutes
 } from '../imports/startup/routes.jsx';
 
-import Home from '../imports/ui/home/home.jsx';
 import Nav from '../imports/ui/nav/nav.jsx';
 import styles from './main.css'
 
