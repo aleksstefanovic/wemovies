@@ -1,0 +1,104 @@
+.movie-title-bar {
+    background-color: #009688;
+    height: 80.9px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.movie-title {
+    font-size: 32px;
+    color: #ffffff;
+    font-family: Helvetica;
+    float: left;
+
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.movie-year {
+    width: 54px;
+    height: 29px;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: left;
+    color: #747474;
+}
+
+.movie-runtime {
+    width: 86px;
+    height: 29px;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: oblique;
+    text-align: left;
+    color: #747474;
+}
+
+.movie-rating {
+    width: 45px;
+    height: 19px;
+    font-family: Helvetica;
+    font-size: 16px;
+    text-align: left;
+    color: #000000;
+}
+
+.movie-fav {
+    width: 112px;
+    height: 48px;
+    background-color: #86e4db;
+    border: solid 1px #6fcac2;
+
+    font-family: Helvetica;
+    font-size: 12px;
+    text-align: center;
+    color: #757373;
+}
+
+.movie-poster {
+    width: 128px;
+    height: 190.5px;
+    object-fit: contain;
+}
+
+.movie-overview {
+    font-family: Helvetica;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #747474;
+}
+
+hr {
+    height: 1px;
+    background-color: #6a6767;
+}
+
+.movie-trailers {
+    height: 22px;
+    font-family: Helvetica;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #747474;
+}
+
+.play-arrow {
+    height: 24px;
+    font-family: FontAwesome;
+    font-size: 24px;
+    text-align: left;
+    color: #000000;
+}
+
+.movie-trailer-text {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 14px;
+    font-family: Helvetica;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #747474;
+}

@@ -2,3 +2,8 @@ html, body {
     margin: 0px;
     padding: 0px;
 }
+
+.cardReal {
+    width: 50%;
+    float: left;
+}

@@ -14,7 +14,7 @@ export const renderRoutes = () => (
   <Router history={browserHistory}>
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route exact path="/movies" component={Movies} />
+      <Route path="/movies" component={Movies} />
       <Route component={PageNotFound} />
     </Switch>
   </Router>

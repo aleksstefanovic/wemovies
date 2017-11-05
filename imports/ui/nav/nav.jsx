@@ -1,19 +1,44 @@
 import React, {
-    Component,
-    PropTypes
+    Component
 } from 'react';
 import {
     createContainer
 } from 'meteor/react-meteor-data';
 import styles from './nav.css'
+import NavMovies from './navMovies.jsx';
+import NavBack from './navBack.jsx';
+import browserHistory from '../../startup/history.jsx';
 
-export default class Nav extends Component {
+class Nav extends Component {
     render() {
-        return (
-            <div className="nav-bg">
-                    <p className="nav-title">Pop Movies</p>
+        var movieId = null;
+        var url = this.props.url;
+
+        if (url) {
+            movieId = url.split("/")[4];
+        }
+
+        if (movieId) {
+            return (
+                <div className="nav-bg">
+                    <NavBack key="1" />
                     <div className="settings"/>
-            </div>
-        );
+                </div>
+            );
+        }
+        else {
+            return (
+                <div className="nav-bg">
+                    <NavMovies key="1" />
+                    <div className="settings"/>
+                </div>
+            );
+        }
     }
 }
+
+export default createContainer((props) => {
+    return {
+        url : Session.get("url")
+    }
+}, Nav);

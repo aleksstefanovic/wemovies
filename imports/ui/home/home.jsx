@@ -13,6 +13,7 @@ export default class Home extends Component {
     }
 
     componentDidMount () {
+        Session.set ("url", window.location.href);
         browserHistory.push("/movies");        
     }
 }
