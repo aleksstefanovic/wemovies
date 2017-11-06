@@ -7,6 +7,7 @@ import {
 import styles from './nav.css'
 import NavMovies from './navMovies.jsx';
 import NavBack from './navBack.jsx';
+import Settings from './settings.jsx';
 import browserHistory from '../../startup/history.jsx';
 
 class Nav extends Component {
@@ -21,16 +22,16 @@ class Nav extends Component {
         if (movieId) {
             return (
                 <div className="nav-bg">
-                    <NavBack key="1" />
-                    <div className="settings"/>
+                    <NavBack key="navback" />
+                    <Settings key="settings" />
                 </div>
             );
         }
         else {
             return (
                 <div className="nav-bg">
-                    <NavMovies key="1" />
-                    <div className="settings"/>
+                    <NavMovies key="navmovies" />
+                    <Settings key="settings" />
                 </div>
             );
         }

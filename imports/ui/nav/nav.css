@@ -18,9 +18,11 @@
 .settings:after {
     content: '\2807';
     color: #ffffff;
-    font-size: 50px;
+    font-size: 40px;
     float: right;
     margin-top: 3px;
+    padding: 0px, 0px, 0px, 0px;
+    margin-bottom: 0px;
 }
 
 .movie-back-arrow {
